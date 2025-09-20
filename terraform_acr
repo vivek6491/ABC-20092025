@@ -32,8 +32,7 @@ variable "acr_name" {
   type        = string
   description = "Unique name for the Container Registry"
 }
-vivek@ubuntu:~/Desktop/4th_Eval/terraform_task$ cat terraform.tfvars 
+
 resource_group_name = "demo-acr-rg"
 acr_name            = "demoacr1234567891011" 
-vivek@ubuntu:~/Desktop/4th_Eval/terraform_task$ 
 
